@@ -16,6 +16,9 @@
 
 #pragma once
 
+#define LAYER_STATE_16BIT
+#define DYNAMIC_KEYMAP_LAYER_COUNT 8
+
 #ifdef RGB_MATRIX_ENABLE
 /* RGB Matrix driver configuration */
 #    define DRIVER_COUNT 1
